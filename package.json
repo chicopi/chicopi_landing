@@ -13,12 +13,14 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
+  "homepage": "https://bulkwhatsappsender.herokuapp.com",
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install -g serve &&  serve -s build -l 4000 && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  
   "eslintConfig": {
     "extends": "react-app"
   },
