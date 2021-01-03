@@ -1,8 +1,9 @@
 {
   "name": "landingpage-react-template",
+ 
   "engines": {
     "node": "10.16.0"
-    
+    "npm": "1.4.29"
   },
   "private": true,
   "dependencies": {
