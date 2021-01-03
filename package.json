@@ -17,7 +17,7 @@
   "scripts": {
     "predeploy": "yarn run build",    
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cd build && serve -s build",
     "test": "react-scripts test",
     "publish": "cd build && serve -s build",
     "eject": "react-scripts eject"
