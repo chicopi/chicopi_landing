@@ -1,7 +1,7 @@
 {
   "name": "landingpage-react-template",
   "engines": {
-    "node": "10.16.0",
+    "node": "14.15.1",
     "yarn": "1.22.5"
   },
   "private": true,
@@ -15,11 +15,13 @@
   },
   "homepage": "https://bulkwhatsappsender.herokuapp.com",
   "scripts": {
+    "predeploy": "yarn run build",    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "publish": "serve -s build",
     "eject": "react-scripts eject"
-  },
+    },
   
   "eslintConfig": {
     "extends": "react-app"
