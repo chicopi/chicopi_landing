@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "publish": "serve -s build",
+    "publish": "cd build && serve -s build",
     "eject": "react-scripts eject"
     },
   
