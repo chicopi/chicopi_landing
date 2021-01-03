@@ -15,9 +15,8 @@
     "yarn": "1.22.5"
   },
   "scripts": {
-    "start": "yarn start",
-    "deploy": "cp -a web/build/. public/",
-    "heroku-postbuild": "yarn build && yarn deploy"
+    "start": "yarn start"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
